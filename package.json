@@ -1,0 +1,24 @@
+{
+  "name": "graphqlapiboilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for create APIs with graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adelmojnr/graphqlApiBoilerplate.git"
+  },
+  "author": "adelmojnr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adelmojnr/graphqlApiBoilerplate/issues"
+  },
+  "homepage": "https://github.com/adelmojnr/graphqlApiBoilerplate#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.9.7",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.6"
+  }
+}
